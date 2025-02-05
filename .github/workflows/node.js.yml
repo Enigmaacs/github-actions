@@ -67,6 +67,5 @@ jobs:
         
         # Use a unique container name based on timestamp to avoid conflicts
         UNIQUE_CONTAINER_NAME="my-node-app-$(date +%s)"
-        docker run -d -p 3000:3000 --name $UNIQUE_CONTAINER_NAME sandeep3414/my-node-app:latest
- 
+        docker run -d -p 3000:3000 --name $UNIQUE_CONTAINER_NAME sushmaskillmine/my-node-app:latest
  
